@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,21 +7,19 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'API Docs', link: 'https://api.docs.pitside.app'},
+      { text: "Home", link: "/" },
+      { text: "API Docs", link: "https://api.docs.pitside.app" },
     ],
 
     sidebar: [
       {
-        text: 'Setup',
-        items: [
-          { text: 'What is Pitside?', link: '/welcome' }
-        ]
-      }
+        text: "Setup",
+        items: [{ text: "What is Pitside?", link: "/welcome" }],
+      },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
+      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+    ],
+  },
 })
