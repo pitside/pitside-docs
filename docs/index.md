@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /markdown-examples
+      link: /welcome
     - theme: alt
       text: API Docs
       link: https://api.docs.pitside.app
