@@ -8,7 +8,7 @@ export default defineConfig({
       provider: "local",
     },
     siteTitle: false,
-    logo: { dark: "/assets/logoLight.svg", light: "/assets/logoDark.svg" },
+    logo: { dark: "logoLight.svg", light: "logoDark.svg" },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Docs", link: "/welcome" },
