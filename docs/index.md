@@ -11,6 +11,3 @@ hero:
     - theme: brand
       text: Get Started
       link: /welcome
-    - theme: alt
-      text: API Docs
-      link: https://api.docs.pitside.app
