@@ -2,9 +2,13 @@ import { defineConfig } from "vitepress"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Pitside For FRC Docs",
   description: "A management system built for the FIRST Robotics Competition",
   themeConfig: {
+    search: {
+      provider: "local",
+    },
+    siteTitle: false,
+    logo: { dark: "/assets/logoLight.svg", light: "/assets/logoDark.svg" },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
@@ -18,8 +22,6 @@ export default defineConfig({
       },
     ],
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/pitside" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/pitside" }],
   },
 })
