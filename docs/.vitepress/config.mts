@@ -11,7 +11,7 @@ export default defineConfig({
     logo: { dark: "/assets/logoLight.svg", light: "/assets/logoDark.svg" },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/" },
+      { text: "Docs", link: "/welcome" },
       { text: "API Docs", link: "https://api.docs.pitside.app" },
     ],
 
