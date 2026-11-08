@@ -7,8 +7,8 @@
     "format:write": "prettier . --write"
   },
   "devDependencies": {
-    "vitepress": "^2.0.0-alpha.20",
-    "vue": "^3.5.44",
+    "vitepress": "^2.0.0-alpha.21",
+    "vue": "^3.5.45",
     "prettier": "^3.9.10"
   }
 }
